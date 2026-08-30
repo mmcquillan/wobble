@@ -8,6 +8,9 @@
 *.so
 *.dylib
 
+# Built wobble binary
+/wobble
+
 # Test binary, built with `go test -c`
 *.test
 
