@@ -1,6 +1,20 @@
 # wobble
 
-A small workload simulator. One run:
+A small workload simulator.
+
+
+## Disclaimer
+
+This was wholly produced via Claude (Sonnet 4.6) with the following prompts:
+
+```
+We are going to create an openspec style specification for this small go utility that needs to execute for a variable amount of time (with a max allowable time), use a variable amount of CPU, and quit with a percent of success versus failure exit code. Can you write this for me?
+
+Implement wobble in go based on the available specs in the repo
+```
+
+
+## Overview
 
 1. executes for a **variable amount of wall-clock time** (fixed or sampled from a
    range), always bounded by a hard **maximum duration**;
